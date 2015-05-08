@@ -1,0 +1,105 @@
+/* calendar style */
+
+#calendarDiv {
+	display: block;
+	display: none;
+	position: relative;
+	border: 1px solid #777;
+	z-index: 555;
+	font-size: 1.0em;
+	background-color:#00CCFF;
+	width:40%;
+}
+#calendarDiv a {
+	cursor: pointer;
+	cursor: hand;
+}
+#calendar {
+	background: #ddd;
+	clear: both;
+	text-align: center;
+	font-size: 105%;
+}
+#calendar, #linksTable {
+	width:100%;
+}
+#calendar .calendarHeader {
+	background:#006699 url(../../img/fadeto333.gif) top repeat-x;
+	border-bottom: 1px solid #444;
+	color:#F8F8F8;
+	text-align:center;
+	width:190px;
+}
+#calendar .weekDaysTitleRow {
+	background: #777;
+	color:#006699;
+	font-weight:bold;
+	width:190px;
+}
+#calendar .weekDaysRow {
+	background: #eee;
+	color: #666;
+	width:198px;
+}
+#calendar .weekDaysCell {
+	color: #000;
+	border: 1px solid #ddd;
+}
+#calendar .weekDaysCellOver {
+	background: #fff;
+	border: 1px solid #777;
+}
+#closeCalender {
+	position: absolute;
+	right: 0;
+	bottom: 100%;
+	margin-bottom: 1px;
+	display: block;
+	padding: 2px;
+	cursor: pointer;
+	cursor: hand;
+	font-size: 60%;
+	background-color:#0099CC;
+	letter-spacing: 1px;
+}
+#closeCalender:hover {
+	background-color:#006699;
+	color: #fff;
+}
+#linksTable {
+	background: #000;
+	width:100%;
+}
+#linksTable a {
+	display: block;
+	color: #000;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 80%;
+	padding: 2px 5px;
+}
+#linksTable a:hover {
+	background: #ddd;
+	color: #333;
+}
+#prevMonth {
+	float: left;
+}
+#nextMonth {
+	float: right;
+}
+#today {
+	background:#006699;
+	color:#FFFFFF;
+}
+#calendar_cover {
+    display: none; /*sorry for IE5*/
+    display/**/: block; /*sorry for IE5*/
+    position: absolute; /*must have*/
+    z-index: -1; /*must have*/
+    filter: mask(); /*must have*/
+    top: 0px; /*must have*/
+    left: 0px; /*must have*/
+    width: 200px; /*must have to match width and borders*/
+    height: 200px; /*must have to match maximum height*/ 
+}

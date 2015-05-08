@@ -1,0 +1,20 @@
+# Turn on URL rewriting
+RewriteEngine On
+
+# Put your installation directory here:
+# If your URL is www.example.com/kohana/, use /kohana/
+# If your URL is www.example.com/, use /
+RewriteBase /accabangladesh/
+
+# Protect application and system files from being viewed
+RewriteCond $1 ^(application|modules|system)
+
+# Rewrite to index.php/access_denied/URL
+RewriteRule ^(.*)$ index.php/access_denied/$1 [PT,L]
+
+# Do not enable rewriting for other files that exist
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite to index.php/URL
+RewriteRule ^(.*)$ index.php/$1 [PT,L]

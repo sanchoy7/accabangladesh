@@ -1,0 +1,105 @@
+DIV.grid2 {
+	HEIGHT: 1%
+}
+DIV.grid3 {
+	HEIGHT: 1%
+}
+DIV.grid4 {
+	HEIGHT: 1%
+}
+DIV.grid5 {
+	HEIGHT: 1%
+}
+UL.hlist-left {
+	HEIGHT: 1%
+}
+UL.hlist-right {
+	HEIGHT: 1%
+}
+.clearafter {
+	HEIGHT: 1%
+}
+#jsn-usermodules1_inner_grid2 {
+	HEIGHT: 1%
+}
+#jsn-usermodules2_inner_grid2 {
+	HEIGHT: 1%
+}
+#jsn-usermodules3_inner_grid2 {
+	HEIGHT: 1%
+}
+#jsn-usermodules3_inner_grid3 {
+	HEIGHT: 1%
+}
+#jsn-content_inner2 {
+	HEIGHT: 1%
+}
+#jsn-pleft {
+	HEIGHT: 1%
+}
+#jsn-pright {
+	HEIGHT: 1%
+}
+#jsn-footer {
+	HEIGHT: 1%
+}
+DIV.module-box DIV {
+	HEIGHT: 1%
+}
+DIV.jsn-column {
+	OVERFLOW: hidden
+}
+#jsn-usermodules1 .padding {
+	PADDING-RIGHT: 0.6em; PADDING-LEFT: 0.6em; PADDING-BOTTOM: 0.6em; PADDING-TOP: 0.6em
+}
+#jsn-usermodules2 .padding {
+	PADDING-RIGHT: 0.6em; PADDING-LEFT: 0.6em; PADDING-BOTTOM: 0.6em; PADDING-TOP: 0.6em
+}
+DIV.module-box DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 16px
+}
+DIV.module-box DIV DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 16px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+DIV.module-box DIV DIV DIV {
+	PADDING-RIGHT: 16px; PADDING-LEFT: 0px; PADDING-BOTTOM: 16px; PADDING-TOP: 0px
+}
+DIV.module-box DIV DIV DIV DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+DIV.box-blue DIV {
+	BACKGROUND: url(../images/module-box-blue-bg-l.png) no-repeat left top
+}
+DIV.box-blue DIV DIV {
+	BACKGROUND: url(../images/module-box-blue-bg-l.png) no-repeat left bottom
+}
+DIV.box-blue DIV DIV DIV {
+	BACKGROUND: url(../images/module-box-blue-bg-r.png) no-repeat right bottom
+}
+DIV.box-green DIV {
+	BACKGROUND: url(../images/module-box-green-bg-l.png) no-repeat left top
+}
+DIV.box-green DIV DIV {
+	BACKGROUND: url(../images/module-box-green-bg-l.png) no-repeat left bottom
+}
+DIV.box-green DIV DIV DIV {
+	BACKGROUND: url(../images/module-box-green-bg-r.png) no-repeat right bottom
+}
+DIV.box-yellow DIV {
+	BACKGROUND: url(../images/module-box-yellow-bg-l.png) no-repeat left top
+}
+DIV.box-yellow DIV DIV {
+	BACKGROUND: url(../images/module-box-yellow-bg-l.png) no-repeat left bottom
+}
+DIV.box-yellow DIV DIV DIV {
+	BACKGROUND: url(../images/module-box-yellow-bg-r.png) no-repeat right bottom
+}
+DIV.box-grey DIV {
+	BACKGROUND: url(../images/module-box-grey-bg-l.png) no-repeat left top
+}
+DIV.box-grey DIV DIV {
+	BACKGROUND: url(../images/module-box-grey-bg-l.png) no-repeat left bottom
+}
+DIV.box-grey DIV DIV DIV {
+	BACKGROUND: url(../images/module-box-grey-bg-r.png) no-repeat right bottom
+}
